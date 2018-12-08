@@ -14,7 +14,7 @@
 
 package com.reacttive.aadilmirrani.samples
 
-import android.support.v17.leanback.widget.AbstractDetailsDescriptionPresenter
+import androidx.leanback.widget.AbstractDetailsDescriptionPresenter
 
 class DetailsDescriptionPresenter : AbstractDetailsDescriptionPresenter() {
 

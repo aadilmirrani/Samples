@@ -9,12 +9,13 @@ import android.graphics.Canvas;
 import android.graphics.drawable.*;
 import android.os.Build;
 import android.os.Handler;
-import android.support.annotation.ColorRes;
-import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
+import androidx.annotation.ColorRes;
+import androidx.annotation.Nullable;
+import androidx.core.content.ContextCompat;
 import android.util.AttributeSet;
 import android.view.ViewGroup;
 import android.widget.Button;
+
 import com.reacttive.aadilmirrani.cvmlibrary.R;
 import com.reacttive.aadilmirrani.cvmlibrary.Utils;
 import com.reacttive.aadilmirrani.cvmlibrary.animatedDrawable.CircularAnimatedDrawable;
@@ -22,7 +23,6 @@ import com.reacttive.aadilmirrani.cvmlibrary.animatedDrawable.CircularRevealAnim
 import com.reacttive.aadilmirrani.cvmlibrary.interfaces.AnimatedButton;
 import com.reacttive.aadilmirrani.cvmlibrary.interfaces.CustomizableByCode;
 import com.reacttive.aadilmirrani.cvmlibrary.interfaces.OnAnimationEndListener;
-import org.jetbrains.annotations.NotNull;
 
 public class CircularProgressButton extends Button implements AnimatedButton, CustomizableByCode {
 
